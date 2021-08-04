@@ -43,15 +43,15 @@ namespace AcademyCSharpLesson03._08._2021
 
 
             //Problem 4
-            var number1 = 41;
+            var number1 = 987;
             if (number1 < 100)
             {
-                Console.WriteLine($"Problem #4 {number1 % 10}{number1 / 10}");
+                Console.WriteLine("Problem #4 " + ((number1 % 10) * 1) + ( number1 / 10));
             }
             else if (number1 > 100)
 
             {
-                Console.WriteLine($"Problem #4 {number1 % 10}{(number1 / 10) % 10}{number1 / 100}");
+                Console.WriteLine("Problem #4 " + ((number1 % 10) * 1)  + (((number1 / 10) % 10) * 1) + number1 / 100 );
             }
             Console.WriteLine();
 
