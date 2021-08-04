@@ -6,6 +6,8 @@ namespace AcademyCSharpLesson03._08._2021
     {
         static void Main(string[] args)
         {
+            // Прошу прощения что использую везде var но сейчас мы пользуемся только типом int и double
+            // так что не тяжело понять что это за тип.
 
             //Problem 1
             var a = 16.80;
