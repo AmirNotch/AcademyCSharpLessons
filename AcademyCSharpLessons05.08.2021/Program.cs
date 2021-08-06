@@ -17,11 +17,15 @@ namespace AcademyCSharpLessons05._08._2021
                 B = 0;
                 Console.WriteLine($"A = B: A={A} B={B}");
             }
+            else if (A > B)
+            {
+                B = A;
+                Console.WriteLine($"A={A} B={B}");
+            }
             else
             {
-                A++;
-                B++;
-                Console.WriteLine($"A != B: A={A} B={B}");
+                A = B;
+                Console.WriteLine($"A={A} B={B}");
 
             }
 
