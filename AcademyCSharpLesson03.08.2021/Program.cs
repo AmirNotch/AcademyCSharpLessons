@@ -43,7 +43,7 @@ namespace AcademyCSharpLesson03._08._2021
 
 
             //Problem 4
-            var number1 = 987;
+            var number1 = 41;
             if (number1 < 100)
             {
                 Console.WriteLine("Problem #4 " + ((number1 % 10) * 1) + ( number1 / 10));

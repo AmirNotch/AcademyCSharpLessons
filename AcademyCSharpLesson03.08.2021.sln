@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyCSharpLesson03.08.2021", "AcademyCSharpLesson03.08.2021\AcademyCSharpLesson03.08.2021.csproj", "{9E81602D-DF79-4615-BCB7-D467AE1BDE65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyCSharpLesson03.08.2021", "AcademyCSharpLesson03.08.2021\AcademyCSharpLesson03.08.2021.csproj", "{9E81602D-DF79-4615-BCB7-D467AE1BDE65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyCSharpLessons05.08.2021", "AcademyCSharpLessons05.08.2021\AcademyCSharpLessons05.08.2021.csproj", "{8E20F6F0-629B-4762-A1C7-9275476C6617}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9E81602D-DF79-4615-BCB7-D467AE1BDE65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E81602D-DF79-4615-BCB7-D467AE1BDE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E81602D-DF79-4615-BCB7-D467AE1BDE65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E20F6F0-629B-4762-A1C7-9275476C6617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E20F6F0-629B-4762-A1C7-9275476C6617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E20F6F0-629B-4762-A1C7-9275476C6617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E20F6F0-629B-4762-A1C7-9275476C6617}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
