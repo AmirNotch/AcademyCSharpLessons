@@ -26,7 +26,7 @@ namespace AcademyCSharpLessons05._08._2021
             }
 
             //Problem 2
-            Console.WriteLine("Программа #2\n");
+            Console.WriteLine("Программа #2 \n");
             for (int i = 0; i < 1;)
             {
                 Console.WriteLine("Вы согласны чтобы программа сама сгенерировала числа?");
