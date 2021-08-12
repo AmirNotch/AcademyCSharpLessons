@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyCSharpLesson03.08.2021", "AcademyCSharpLesson03.08.2021\AcademyCSharpLesson03.08.2021.csproj", "{9E81602D-DF79-4615-BCB7-D467AE1BDE65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyCSharpLessons05.08.2021", "AcademyCSharpLessons05.08.2021\AcademyCSharpLessons05.08.2021.csproj", "{8E20F6F0-629B-4762-A1C7-9275476C6617}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyCSharpLessons05.08.2021", "AcademyCSharpLessons05.08.2021\AcademyCSharpLessons05.08.2021.csproj", "{8E20F6F0-629B-4762-A1C7-9275476C6617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyCSharpLesson10.05.2021", "AcademyCSharpLesson10.05.2021\AcademyCSharpLesson10.05.2021.csproj", "{A503ED3B-303A-42E1-95AD-6115568CCFEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8E20F6F0-629B-4762-A1C7-9275476C6617}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E20F6F0-629B-4762-A1C7-9275476C6617}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E20F6F0-629B-4762-A1C7-9275476C6617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A503ED3B-303A-42E1-95AD-6115568CCFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A503ED3B-303A-42E1-95AD-6115568CCFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A503ED3B-303A-42E1-95AD-6115568CCFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A503ED3B-303A-42E1-95AD-6115568CCFEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
