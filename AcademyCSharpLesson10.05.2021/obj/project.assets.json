@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ibrag\\source\\repos\\AcademyCSharpLessons\\AcademyCSharpLesson10.05.2021\\AcademyCSharpLesson10.05.2021.csproj",
-      "projectName": "AcademyCSharpLesson10.05.2021",
-      "projectPath": "C:\\Users\\ibrag\\source\\repos\\AcademyCSharpLessons\\AcademyCSharpLesson10.05.2021\\AcademyCSharpLesson10.05.2021.csproj",
+      "projectUniqueName": "C:\\Users\\ibrag\\source\\repos\\AcademyCSharpLessons\\AcademyCSharpLesson10.05.2021\\AcademyCSharpLesson10.08.2021.csproj",
+      "projectName": "AcademyCSharpLesson10.08.2021",
+      "projectPath": "C:\\Users\\ibrag\\source\\repos\\AcademyCSharpLessons\\AcademyCSharpLesson10.05.2021\\AcademyCSharpLesson10.08.2021.csproj",
       "packagesPath": "C:\\Users\\ibrag\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ibrag\\source\\repos\\AcademyCSharpLessons\\AcademyCSharpLesson10.05.2021\\obj\\",
       "projectStyle": "PackageReference",

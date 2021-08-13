@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyCSharpLesson03.08.20
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyCSharpLessons05.08.2021", "AcademyCSharpLessons05.08.2021\AcademyCSharpLessons05.08.2021.csproj", "{8E20F6F0-629B-4762-A1C7-9275476C6617}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyCSharpLesson10.05.2021", "AcademyCSharpLesson10.05.2021\AcademyCSharpLesson10.05.2021.csproj", "{A503ED3B-303A-42E1-95AD-6115568CCFEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyCSharpLesson10.08.2021", "AcademyCSharpLesson10.05.2021\AcademyCSharpLesson10.08.2021.csproj", "{A503ED3B-303A-42E1-95AD-6115568CCFEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyCSharpLesson12.05.2021", "AcademyCSharpLesson12.05.2021\AcademyCSharpLesson12.05.2021.csproj", "{028E166E-6846-4486-8109-A74621CB04FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyCSharpLesson12.08.2021", "AcademyCSharpLesson12.05.2021\AcademyCSharpLesson12.08.2021.csproj", "{028E166E-6846-4486-8109-A74621CB04FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
