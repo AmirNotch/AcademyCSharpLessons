@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyCSharpLesson03.08.20
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyCSharpLessons05.08.2021", "AcademyCSharpLessons05.08.2021\AcademyCSharpLessons05.08.2021.csproj", "{8E20F6F0-629B-4762-A1C7-9275476C6617}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyCSharpLesson10.08.2021", "AcademyCSharpLesson10.05.2021\AcademyCSharpLesson10.08.2021.csproj", "{A503ED3B-303A-42E1-95AD-6115568CCFEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyCSharpLesson10.08.2021", "AcademyCSharpLesson10.08.2021\AcademyCSharpLesson10.08.2021.csproj", "{FEC4A585-52E4-4900-B26D-7749D18EE8EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyCSharpLesson12.08.2021", "AcademyCSharpLesson12.05.2021\AcademyCSharpLesson12.08.2021.csproj", "{028E166E-6846-4486-8109-A74621CB04FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyCSharpLesson12.08.2021", "AcademyCSharpLesson12.08.2021\AcademyCSharpLesson12.08.2021.csproj", "{922C6C4A-B9B0-47D0-9E89-2F6372E24013}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{8E20F6F0-629B-4762-A1C7-9275476C6617}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E20F6F0-629B-4762-A1C7-9275476C6617}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E20F6F0-629B-4762-A1C7-9275476C6617}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A503ED3B-303A-42E1-95AD-6115568CCFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A503ED3B-303A-42E1-95AD-6115568CCFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A503ED3B-303A-42E1-95AD-6115568CCFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A503ED3B-303A-42E1-95AD-6115568CCFEF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{028E166E-6846-4486-8109-A74621CB04FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{028E166E-6846-4486-8109-A74621CB04FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{028E166E-6846-4486-8109-A74621CB04FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{028E166E-6846-4486-8109-A74621CB04FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC4A585-52E4-4900-B26D-7749D18EE8EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC4A585-52E4-4900-B26D-7749D18EE8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC4A585-52E4-4900-B26D-7749D18EE8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC4A585-52E4-4900-B26D-7749D18EE8EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{922C6C4A-B9B0-47D0-9E89-2F6372E24013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{922C6C4A-B9B0-47D0-9E89-2F6372E24013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{922C6C4A-B9B0-47D0-9E89-2F6372E24013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{922C6C4A-B9B0-47D0-9E89-2F6372E24013}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
