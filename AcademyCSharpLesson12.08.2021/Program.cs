@@ -9,7 +9,9 @@ namespace AcademyCSharpLesson12._08._2021
             // Problem 1
             Console.WriteLine("Программа 1\n");
             Console.WriteLine("Введите Два числа по очереди чтобы получить сумму и нечётные числа!");
+            Console.WriteLine("Введите первое число");
             int.TryParse(Console.ReadLine(), out var A);
+            Console.WriteLine("Введите второе число");
             int.TryParse(Console.ReadLine(), out var B);
             var result = 0;
             for (int i = A; i < B; i++)
@@ -30,6 +32,8 @@ namespace AcademyCSharpLesson12._08._2021
             Console.Write("\n");
             Console.WriteLine("Result of sum = {0}", result);
             Console.Write('\n');
+
+
 
             // Problem 2 
             Console.WriteLine("Программа 2\n");
@@ -60,7 +64,7 @@ namespace AcademyCSharpLesson12._08._2021
             Console.Write('\n');
 
             Console.WriteLine("Прямоугольный треугольник");
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < 10; i++)
             {
                 for (int j = 0; j <= i; j++)
                 {
@@ -68,9 +72,9 @@ namespace AcademyCSharpLesson12._08._2021
                     {
                         Console.Write('*');
                     }
-                    if (i == 19)
+                    if (i == 9)
                     {
-                        if (j == 19)
+                        if (j == 9)
                         {
                             break;
                         }
@@ -115,26 +119,26 @@ namespace AcademyCSharpLesson12._08._2021
             Console.WriteLine("{0}{1}", new string(' ', Height / 2), '*');
             Console.Write('\n');
 
+
+
             // Problem 3
             Console.WriteLine("Программа 3\n");
             Console.WriteLine("Начальный вклад в банке равен 1000 руб.");
-            int procent = 25;
-            var resulted = 0;
-            for (int i = 1; i < procent; i++)
+            double procent;
+            Console.WriteLine("Введите процент по вкладу(P > 0 и P < 25), от 0 до 25 :");
+            procent = Convert.ToDouble(Console.ReadLine());
+            if (procent < 0 || procent > 25)
             {
-                resulted = (i * 1000) / 100;
-                if (resulted <= 100)
-                {
-                    Console.WriteLine("Размер вклада {0} месяц {1}, {2}%", (i * 1000) / 100 + (1000), i, resulted / 10);
-                }
-                else
-                {
-                    Console.Write('\n');
-                    Console.WriteLine("Размер вклада превысил 1100 и достиг {0} за {1} месяцев, {2}%", resulted + 1000, i, resulted / 10);
-                    break;
-                }
-                resulted = (i * 1000) / 100;
+                Console.WriteLine("Недействительные процент вклада:)");
+                Console.ReadKey();
             }
+            int count = 0;
+            double deposit;
+            for (deposit = 1000; deposit < 1100; count++)
+            {
+                deposit += deposit * procent / 100;
+            }
+            Console.WriteLine("До того как лимит вклада на сумму 1100р. понадобится: {0} месяца \n сумма вклада будет: {1} руб.", count, deposit);
         }
     }
 }
