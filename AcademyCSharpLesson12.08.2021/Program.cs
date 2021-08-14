@@ -7,7 +7,7 @@ namespace AcademyCSharpLesson12._08._2021
         static void Main(string[] args)
         {
             // Problem 1
-            /*Console.WriteLine("Программа 1\n");
+            Console.WriteLine("Программа 1\n");
             Console.WriteLine("Введите Два числа по очереди чтобы получить сумму и нечётные числа!");
             Console.WriteLine("Введите первое число");
             int.TryParse(Console.ReadLine(), out var A);
@@ -31,7 +31,7 @@ namespace AcademyCSharpLesson12._08._2021
             }
             Console.Write("\n");
             Console.WriteLine("Result of sum = {0}", result);
-            Console.Write('\n');*/
+            Console.Write('\n');
 
 
 
