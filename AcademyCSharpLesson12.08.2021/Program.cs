@@ -102,7 +102,7 @@ namespace AcademyCSharpLesson12._08._2021
             }
             Console.Write('\n');
 
-            Console.WriteLine("Прямоугольный треугольник");
+            Console.WriteLine("Прямоугольный треугольник #1");
             for (int i = 0; i < 10; i++)
             {
                 for (int j = 0; j <= i; j++)
@@ -155,7 +155,7 @@ namespace AcademyCSharpLesson12._08._2021
             }
             Console.Write('\n');
 
-            Console.WriteLine("Равносторонний треугольник");
+            Console.WriteLine("Равносторонний треугольник #1");
             int hor, gor, heightt = 15;
             for (hor = 0; hor < heightt; hor++)
             {
