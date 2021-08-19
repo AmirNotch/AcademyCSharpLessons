@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyCSharpLesson10.08.20
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyCSharpLesson12.08.2021", "AcademyCSharpLesson12.08.2021\AcademyCSharpLesson12.08.2021.csproj", "{922C6C4A-B9B0-47D0-9E89-2F6372E24013}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyCSharpLesson14.08.2021", "AcademyCSharpLesson14.08.2021\AcademyCSharpLesson14.08.2021.csproj", "{F079B9CB-68E6-4271-A384-C805533CCE5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyCSharpLesson14.08.2021", "AcademyCSharpLesson14.08.2021\AcademyCSharpLesson14.08.2021.csproj", "{F079B9CB-68E6-4271-A384-C805533CCE5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyCSharpLesson17.08.2021", "AcademyCSharpLesson17.08.2021\AcademyCSharpLesson17.08.2021.csproj", "{8968AF9F-3624-4CE0-80FB-F68BD7669B38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{F079B9CB-68E6-4271-A384-C805533CCE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F079B9CB-68E6-4271-A384-C805533CCE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F079B9CB-68E6-4271-A384-C805533CCE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8968AF9F-3624-4CE0-80FB-F68BD7669B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8968AF9F-3624-4CE0-80FB-F68BD7669B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8968AF9F-3624-4CE0-80FB-F68BD7669B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8968AF9F-3624-4CE0-80FB-F68BD7669B38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
