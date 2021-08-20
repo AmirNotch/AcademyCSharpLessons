@@ -1,0 +1,15 @@
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\bin\Debug\net5.0\AcademyCSharpLesson19.08.2021(2 problem with Book).exe
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\bin\Debug\net5.0\AcademyCSharpLesson19.08.2021(2 problem with Book).deps.json
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\bin\Debug\net5.0\AcademyCSharpLesson19.08.2021(2 problem with Book).runtimeconfig.json
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\bin\Debug\net5.0\AcademyCSharpLesson19.08.2021(2 problem with Book).runtimeconfig.dev.json
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\bin\Debug\net5.0\AcademyCSharpLesson19.08.2021(2 problem with Book).dll
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\bin\Debug\net5.0\ref\AcademyCSharpLesson19.08.2021(2 problem with Book).dll
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\bin\Debug\net5.0\AcademyCSharpLesson19.08.2021(2 problem with Book).pdb
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(2 problem with Book).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(2 problem with Book).AssemblyInfoInputs.cache
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(2 problem with Book).AssemblyInfo.cs
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(2 problem with Book).csproj.CoreCompileInputs.cache
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(2 problem with Book).dll
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\obj\Debug\net5.0\ref\AcademyCSharpLesson19.08.2021(2 problem with Book).dll
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(2 problem with Book).pdb
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(2 problem with Book).genruntimeconfig.cache

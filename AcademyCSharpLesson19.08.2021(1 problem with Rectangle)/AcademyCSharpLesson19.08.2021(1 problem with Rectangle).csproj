@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>AcademyCSharpLesson19._08._2021_1_problem_with_Rectangle_</RootNamespace>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(1 problem with Rectangle)\bin\Debug\net5.0\AcademyCSharpLesson19.08.2021(1 problem with Rectangle).exe
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(1 problem with Rectangle)\bin\Debug\net5.0\AcademyCSharpLesson19.08.2021(1 problem with Rectangle).deps.json
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(1 problem with Rectangle)\bin\Debug\net5.0\AcademyCSharpLesson19.08.2021(1 problem with Rectangle).runtimeconfig.json
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(1 problem with Rectangle)\bin\Debug\net5.0\AcademyCSharpLesson19.08.2021(1 problem with Rectangle).runtimeconfig.dev.json
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(1 problem with Rectangle)\bin\Debug\net5.0\AcademyCSharpLesson19.08.2021(1 problem with Rectangle).dll
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(1 problem with Rectangle)\bin\Debug\net5.0\ref\AcademyCSharpLesson19.08.2021(1 problem with Rectangle).dll
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(1 problem with Rectangle)\bin\Debug\net5.0\AcademyCSharpLesson19.08.2021(1 problem with Rectangle).pdb
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(1 problem with Rectangle)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(1 problem with Rectangle).csproj.AssemblyReference.cache
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(1 problem with Rectangle)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(1 problem with Rectangle).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(1 problem with Rectangle)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(1 problem with Rectangle).AssemblyInfoInputs.cache
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(1 problem with Rectangle)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(1 problem with Rectangle).AssemblyInfo.cs
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(1 problem with Rectangle)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(1 problem with Rectangle).csproj.CoreCompileInputs.cache
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(1 problem with Rectangle)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(1 problem with Rectangle).dll
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(1 problem with Rectangle)\obj\Debug\net5.0\ref\AcademyCSharpLesson19.08.2021(1 problem with Rectangle).dll
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(1 problem with Rectangle)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(1 problem with Rectangle).pdb
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(1 problem with Rectangle)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(1 problem with Rectangle).genruntimeconfig.cache
