@@ -779,7 +779,8 @@ namespace AcademyCSharpLesson21._08._2021
                 Console.WriteLine("Добавленный Элемент " + element);
             }
             return element;
-        }public static float UnShift(ref float[] array, float element)
+        }
+        public static float UnShift(ref float[] array, float element)
         {
             var arrayCollect = new float[array.Length+1];
             if (array.Length > 0)
