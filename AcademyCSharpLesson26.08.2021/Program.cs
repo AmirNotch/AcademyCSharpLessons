@@ -73,7 +73,7 @@ namespace AcademyCSharpLesson26._08._2021
                               $"Weight: {Weight}\n" +
                               $"Color: {Color}");
             Console.WriteLine($"Speed: {Speed:0.00}\n");
-        }
+        } 
     }
     public class Truck : Car
     {
@@ -119,8 +119,8 @@ namespace AcademyCSharpLesson26._08._2021
         public PassengerPlane(int year, int weight, string color, double wingLength, int seats) : base(year, weight, color, wingLength)
         {
             Seats = seats;
-        }
 
+        }
         public override void Info()
         {
             Console.WriteLine("Airplane");

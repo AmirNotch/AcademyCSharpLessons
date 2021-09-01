@@ -13,3 +13,4 @@ C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\obj\Debug\net5.0\ref\AcademyCSharpLesson19.08.2021(2 problem with Book).dll
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(2 problem with Book).pdb
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(2 problem with Book).genruntimeconfig.cache
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\obj\Debug\net5.0\AcademyCSharpLesson19.08.2021(2 problem with Book).csproj.AssemblyReference.cache
