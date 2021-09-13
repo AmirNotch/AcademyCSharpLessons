@@ -98,50 +98,12 @@ namespace AcademyCSharpLesson11._09._2021
                     break;
             }
 
-            /*var conString = @"Data source = .\Dev; Initial catalog = ProductDB; Integrated Security = True";
-
-            SqlConnection sqlConnection = new SqlConnection(conString);
-
-            sqlConnection.Open();
-
-            if (sqlConnection.State == System.Data.ConnectionState.Open)
-            {
-                Console.WriteLine("Connection is opened!!!");
-            }*/
-
-
-            /*SelectProducts(sqlConnection);
-
-            var id = 5; //int.Parse(Console.ReadLine());
-            UpdateProducts(sqlConnection, productId: id, new Product
-            {
-                ProductName = "Iphone 11 pro max",
-                Manufacturer = "Apple",
-                ProductCount = 10,
-                Price = 1200.00
-            });
-
-            // SelectProducts(sqlConnection);
-
-            DeleteProducts(sqlConnection, productId: 3);
-
-            InsertProduct(sqlConnection, new Product
-            {
-                ProductName = "Nokia 3311",
-                Manufacturer = "Nokia",
-                ProductCount = 12,
-                Price = 20.0
-            });
-
-            SelectProducts(sqlConnection);*/
-
             sqlConnection.Close();
 
             if (sqlConnection.State == System.Data.ConnectionState.Closed)
             {
                 Console.WriteLine("Connection is clossed!!!");
             }
-
         }
 
         static void UpdateProducts(SqlConnection sqlConnection, int productId, Product product)
