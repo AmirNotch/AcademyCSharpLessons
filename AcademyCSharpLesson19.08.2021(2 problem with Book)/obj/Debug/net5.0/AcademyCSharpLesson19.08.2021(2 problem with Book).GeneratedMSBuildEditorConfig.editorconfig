@@ -6,3 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = AcademyCSharpLesson19._08._2021_2_problem_with_Book_
+build_property.ProjectDir = C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.08.2021(2 problem with Book)\
