@@ -46,6 +46,8 @@ namespace AcademyCSharpLesson21._08._2021
             ArrayHelper.UnShift(ref arrayDouble, 8);
             ArrayHelper.UnShift(ref arrayFloat, 8f);
             ArrayHelper.UnShift(ref arrayString, "8");
+
+
         }
     }
     static class ArrayHelper
