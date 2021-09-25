@@ -150,7 +150,7 @@ namespace AcademyCSharpLesson18._09._2021
         }
 
         // Shift overload methods.
-        public static T Shift<T>(ref T[] array)
+        public static T Shift(ref T[] array)
         {
             var a = array[0];
             var arrayCollect = new T[array.Length - 1];
