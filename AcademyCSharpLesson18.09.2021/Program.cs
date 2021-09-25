@@ -13,15 +13,15 @@ namespace AcademyCSharpLesson18._09._2021
             var arrayDecimal = new decimal[] { 1.0m, 2.0m, 3.0m, 4.0m, 5.0m, 6.0m, 7.0m, 8.0m, 9.0m };
 
             Console.WriteLine("Pop overload methods.");
-            ArrayHelper<Int32>.Pop(ref arrayInt, 0);
+            ArrayHelper<Int32>.Pop(ref arrayInt);
             Console.WriteLine();
-            ArrayHelper<string>.Pop(ref arrayString, "");
+            ArrayHelper<string>.Pop(ref arrayString);
             Console.WriteLine();
-            ArrayHelper<double>.Pop(ref arrayDouble, 0.0);
+            ArrayHelper<double>.Pop(ref arrayDouble);
             Console.WriteLine();
-            ArrayHelper<float>.Pop(ref arrayFloat, 0f);
+            ArrayHelper<float>.Pop(ref arrayFloat);
             Console.WriteLine();
-            ArrayHelper<decimal>.Pop(ref arrayDecimal, 0m);
+            ArrayHelper<decimal>.Pop(ref arrayDecimal);
             Console.WriteLine();
 
             Console.WriteLine("Push overload methods.");
@@ -71,9 +71,9 @@ namespace AcademyCSharpLesson18._09._2021
     static class ArrayHelper<T>
     {
         // Pop overload methods.
-        public static T Pop(ref T[] array, T zero)
+        public static T Pop(ref T[] array)
         {
-            var arrayReturn = zero;
+            object arrayReturn = 0;
             if (array.Length > 0)
             {
                 var arrayCollect = new T[array.Length - 1];
@@ -235,7 +235,7 @@ namespace AcademyCSharpLesson18._09._2021
         }
 
         // Slice overload methods
-        public static T Slice(T[] array, int beginIndex, int endIndex = 0)
+        public static T Slice(T[] array, int beginIndex = 0, int endIndex = 0)
         {
             var number = 0;
             if (endIndex != 0)
