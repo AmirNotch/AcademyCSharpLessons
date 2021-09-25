@@ -71,7 +71,7 @@ namespace AcademyCSharpLesson18._09._2021
     static class ArrayHelper<T>
     {
         // Pop overload methods.
-        public static T Pop<T>(ref T[] array, T zero)
+        public static T Pop(ref T[] array, T zero)
         {
             var arrayReturn = zero;
             if (array.Length > 0)
@@ -106,7 +106,7 @@ namespace AcademyCSharpLesson18._09._2021
         }
 
         // Push overload methods
-        public static T Push<T>(ref T[] array, T element)
+        public static T Push(ref T[] array, T element)
         {
             var arrayCollect = new T[array.Length];
             if (array.Length > 0)
@@ -181,7 +181,7 @@ namespace AcademyCSharpLesson18._09._2021
         }
 
         // UnShift overload methods.
-        public static T UnShift<T>(ref T[] array, T element)
+        public static T UnShift(ref T[] array, T element)
         {
             var arrayCollect = new T[array.Length + 1];
             if (array.Length > 0)
@@ -235,7 +235,7 @@ namespace AcademyCSharpLesson18._09._2021
         }
 
         // Slice overload methods
-        public static T Slice<T>(T[] array, int beginIndex, int endIndex = 0)
+        public static T Slice(T[] array, int beginIndex, int endIndex = 0)
         {
             var number = 0;
             if (endIndex != 0)
