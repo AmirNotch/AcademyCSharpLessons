@@ -13,39 +13,39 @@ namespace AcademyCSharpLesson18._09._2021
             var arrayDecimal = new decimal[] { 1.0m, 2.0m, 3.0m, 4.0m, 5.0m, 6.0m, 7.0m, 8.0m, 9.0m };
 
             Console.WriteLine("Pop overload methods.");
-            ArrayHelper<Int32>.Pop<Int32>(ref arrayInt, 0);
+            ArrayHelper<Int32>.Pop(ref arrayInt, 0);
             Console.WriteLine();
-            ArrayHelper<string>.Pop<string>(ref arrayString, "");
+            ArrayHelper<string>.Pop(ref arrayString, "");
             Console.WriteLine();
-            ArrayHelper<double>.Pop<double>(ref arrayDouble, 0.0);
+            ArrayHelper<double>.Pop(ref arrayDouble, 0.0);
             Console.WriteLine();
-            ArrayHelper<float>.Pop<float>(ref arrayFloat, 0f);
+            ArrayHelper<float>.Pop(ref arrayFloat, 0f);
             Console.WriteLine();
-            ArrayHelper<decimal>.Pop<decimal>(ref arrayDecimal, 0m);
+            ArrayHelper<decimal>.Pop(ref arrayDecimal, 0m);
             Console.WriteLine();
 
             Console.WriteLine("Push overload methods.");
-            ArrayHelper<Int32>.Push<Int32>(ref arrayInt, 10);
-            ArrayHelper<string>.Push<string>(ref arrayString, "10");
-            ArrayHelper<double>.Push<double>(ref arrayDouble, 10.0);
-            ArrayHelper<float>.Push<float>(ref arrayFloat, 10.0f);
-            ArrayHelper<decimal>.Push<decimal>(ref arrayDecimal, 10.0m);
+            ArrayHelper<Int32>.Push(ref arrayInt, 10);
+            ArrayHelper<string>.Push(ref arrayString, "10");
+            ArrayHelper<double>.Push(ref arrayDouble, 10.0);
+            ArrayHelper<float>.Push(ref arrayFloat, 10.0f);
+            ArrayHelper<decimal>.Push(ref arrayDecimal, 10.0m);
             Console.WriteLine();
 
             Console.WriteLine("Shift overload methods.");
-            ArrayHelper<Int32>.Shift<Int32>(ref arrayInt);
-            ArrayHelper<String>.Shift<String>(ref arrayString);
-            ArrayHelper<double>.Shift<Double>(ref arrayDouble);
-            ArrayHelper<decimal>.Shift<decimal>(ref arrayDecimal);
-            ArrayHelper<float>.Shift<float>(ref arrayFloat);
+            ArrayHelper<Int32>.Shift(ref arrayInt);
+            ArrayHelper<String>.Shift(ref arrayString);
+            ArrayHelper<double>.Shift(ref arrayDouble);
+            ArrayHelper<decimal>.Shift(ref arrayDecimal);
+            ArrayHelper<float>.Shift(ref arrayFloat);
             Console.WriteLine();
 
             Console.WriteLine("UnShift overload methods.");
-            ArrayHelper<Int32>.UnShift<Int32>(ref arrayInt, 8);
-            ArrayHelper<decimal>.UnShift<decimal>(ref arrayDecimal, 8m);
-            ArrayHelper<double>.UnShift<Double>(ref arrayDouble, 8);
-            ArrayHelper<float>.UnShift<float>(ref arrayFloat, 8f);
-            ArrayHelper<string>.UnShift<String>(ref arrayString, "8");
+            ArrayHelper<Int32>.UnShift(ref arrayInt, 8);
+            ArrayHelper<decimal>.UnShift(ref arrayDecimal, 8m);
+            ArrayHelper<double>.UnShift(ref arrayDouble, 8);
+            ArrayHelper<float>.UnShift(ref arrayFloat, 8f);
+            ArrayHelper<string>.UnShift(ref arrayString, "8");
             Console.WriteLine();
 
 
@@ -56,22 +56,22 @@ namespace AcademyCSharpLesson18._09._2021
             var arrayDecimal2 = new decimal[] { 1.0m, 2.0m, 3.0m, 4.0m, 5.0m, 6.0m, 7.0m, 8.0m, 9.0m };
 
             Console.WriteLine("Slice overload methods.");
-            ArrayHelper<Int32>.Slice<Int32>(arrayInt2, 1, 9);
+            ArrayHelper<Int32>.Slice(arrayInt2, 1, 9);
             Console.WriteLine();
-            ArrayHelper<string>.Slice<string>(arrayString2, 1, 9);
+            ArrayHelper<string>.Slice(arrayString2, 1, 9);
             Console.WriteLine();
-            ArrayHelper<double>.Slice<double>(arrayDouble2, 1, 9);
+            ArrayHelper<double>.Slice(arrayDouble2, 1, 9);
             Console.WriteLine();
-            ArrayHelper<float>.Slice<float>(arrayFloat2, 1, 9);
+            ArrayHelper<float>.Slice(arrayFloat2, 1, 9);
             Console.WriteLine();
-            ArrayHelper<decimal>.Slice<decimal>(arrayDecimal2, 1, 9);
+            ArrayHelper<decimal>.Slice(arrayDecimal2, 1, 9);
         }
     }
 
     static class ArrayHelper<T>
     {
         // Pop overload methods.
-        public static void Pop<T>(ref T[] array, T zero)
+        public static T Pop<T>(ref T[] array, T zero)
         {
             var arrayReturn = zero;
             if (array.Length > 0)
@@ -96,17 +96,17 @@ namespace AcademyCSharpLesson18._09._2021
             else
             {
                 Console.WriteLine("Пустой Массив");
-                return;
+                return default(T);
             }
             Console.WriteLine();
             Console.WriteLine("Последний Элемент ");
             Console.WriteLine(arrayReturn);
-            return;
+            return default(T);
 
         }
 
         // Push overload methods
-        public static void Push<T>(ref T[] array, T element)
+        public static T Push<T>(ref T[] array, T element)
         {
             var arrayCollect = new T[array.Length];
             if (array.Length > 0)
@@ -145,11 +145,12 @@ namespace AcademyCSharpLesson18._09._2021
                 array[0] = element;
                 Console.WriteLine("Добавленный Элемент " + array[0]);
             }
+            return default(T);
 
         }
 
         // Shift overload methods.
-        public static void Shift<T>(ref T[] array)
+        public static T Shift<T>(ref T[] array)
         {
             var a = array[0];
             var arrayCollect = new T[array.Length - 1];
@@ -176,10 +177,11 @@ namespace AcademyCSharpLesson18._09._2021
                 array = new T[1];
                 Console.WriteLine("Добавленный Элемент " + array[0]);
             }
+            return default(T);
         }
 
         // UnShift overload methods.
-        public static void UnShift<T>(ref T[] array, T element)
+        public static T UnShift<T>(ref T[] array, T element)
         {
             var arrayCollect = new T[array.Length + 1];
             if (array.Length > 0)
@@ -229,10 +231,11 @@ namespace AcademyCSharpLesson18._09._2021
                 }
                 Console.WriteLine("Добавленный Элемент " + element);
             }
+            return default(T);
         }
 
         // Slice overload methods
-        public static void Slice<T>(T[] array, int beginIndex, int endIndex = 0)
+        public static T Slice<T>(T[] array, int beginIndex, int endIndex = 0)
         {
             var number = 0;
             if (endIndex != 0)
@@ -282,6 +285,8 @@ namespace AcademyCSharpLesson18._09._2021
                 }
             }
             Console.WriteLine();
+            return default(T);
+
         }
     }
 }

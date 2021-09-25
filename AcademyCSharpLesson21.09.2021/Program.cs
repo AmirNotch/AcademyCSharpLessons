@@ -20,7 +20,7 @@ namespace AcademyCSharpLesson21._09._2021
             bool working = true;
             while (working)
             {
-                Console.WriteLine("1.Выйти\n2.Добавить Телефон\n3.Выберать Телефон по индексу\n4.Посчитать общее количество Телефонов\nВыбор:");
+                Console.WriteLine("1.Выйти\n2.Добавить Телефон\n3.Выберать Телефон по Ключу(Телефону)\n4.Посчитать общее количество Телефонов\nВыбор:");
                 int.TryParse(Console.ReadLine(), out var choice);
                 switch (choice)
                 {
@@ -94,7 +94,7 @@ namespace AcademyCSharpLesson21._09._2021
             working = true;
             while (working)
             {
-                Console.WriteLine("1.Выйти\n2.Добавить Ноутбук\n3.Выберать Ноутбук по индексу\n4.Посчитать общее количество Ноутбук\nВыбор:");
+                Console.WriteLine("1.Выйти\n2.Добавить Ноутбук\n3.Выберать Ноутбук по Ключу(Ноутбуку)\n4.Посчитать общее количество Ноутбук\nВыбор:");
                 int.TryParse(Console.ReadLine(), out var choice);
                 switch (choice)
                 {
