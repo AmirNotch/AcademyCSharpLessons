@@ -52,10 +52,16 @@ namespace AcademyCSharpLesson07._10._2021
             {
                 try
                 {
-                    for (int i = 1; i < 15; i++)
+                    for (int i = 1, y = 2; i < 15; i++)
                     {
                         var random = new Random().Next(-1000, 5000);
                         Client clientInsert = (Client)obj;
+                        if (i >= 8)
+                        {
+                            client.Add(new Client { Id = y, Balance = clientInsert.Balance + random });
+                            Thread.Sleep(300);
+                        }
+                        //Client clientInsert = (Client)obj;
                         client.Add(new Client { Id = clientInsert.Id, Balance = clientInsert.Balance + random });
                         Thread.Sleep(300);
                     }
@@ -71,10 +77,16 @@ namespace AcademyCSharpLesson07._10._2021
         {
             lock (locker)
             {
-                for (int i = 1; i < 15; i++)
+                for (int i = 1, y = 2; i < 15; i++)
                 {
                     var random = new Random().Next(-1000, 5000);
                     Client clientUpdate = (Client)obj;
+                    if (i >= 8)
+                    {
+                        client.Add(new Client { Id = y, Balance = clientUpdate.Balance + random });
+                        Thread.Sleep(300);
+                    }
+                    //Client clientInsert = (Client)obj;
                     client.Insert(1 * i, new Client { Id = clientUpdate.Id, Balance = clientUpdate.Balance + random, Year = clientUpdate.Year });
                     Thread.Sleep(200);
                 }
@@ -96,12 +108,6 @@ namespace AcademyCSharpLesson07._10._2021
 
         public static void Select()
         {
-            /*for (int i = 1; i < 5; i++)
-            {
-                Client<int, decimal, DateTime> clientUpdate = (Client<int, decimal, DateTime>)obj;
-                client.Insert(1 * i,new Client<int, decimal, DateTime> { Id = clientUpdate.Id * i, Balance = clientUpdate.Balance * i, Year = clientUpdate.Year});
-                Thread.Sleep(500);
-            }*/
             lock (locker)
             {
                 foreach (Client clientSelect in client)
