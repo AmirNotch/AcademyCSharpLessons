@@ -16,14 +16,14 @@ namespace AcademyCSharpLesson05._10._2021
             Console.WriteLine("Выберите один из Алгебраических знаков (-, +, /, *)");
             while (working)
             {
-                
+
                 string symbol = Console.ReadLine();
                 switch (symbol)
                 {
                     case "+":
                         Operation<double, double> op1 = AlgebraicPlus;
 
-                        Console.WriteLine(op1(param1,param2));
+                        Console.WriteLine(op1(param1, param2));
                         working = false;
                         break;
                     case "-":
@@ -51,7 +51,7 @@ namespace AcademyCSharpLesson05._10._2021
             }
         }
 
-        static double AlgebraicMyltyple(double param1,double param2)
+        static double AlgebraicMyltyple(double param1, double param2)
         {
             return param1 * param2;
         }
