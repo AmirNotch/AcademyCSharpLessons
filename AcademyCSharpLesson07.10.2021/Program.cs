@@ -21,7 +21,7 @@ namespace AcademyCSharpLesson07._10._2021
                 Balance = 100,
                 Year = DateTime.Now
             };
-           
+
             Thread myThreadInsert = new Thread(new ParameterizedThreadStart(Insert));
             myThreadInsert.Start(clientsInsert);
 
@@ -44,6 +44,12 @@ namespace AcademyCSharpLesson07._10._2021
             Thread.Sleep(4000);
             Thread myThreadSelect = new Thread(Select);
             myThreadSelect.Start();
+
+            /*Thread.Sleep(4000);
+            int num = 0;
+            TimerCallback tm = new TimerCallback(Select);
+            Timer timer = new Timer(tm, num, 10000, 0);*/
+            Console.ReadLine();
         }
 
         public static void Insert(object obj)
@@ -106,51 +112,98 @@ namespace AcademyCSharpLesson07._10._2021
             }
         }
 
-        public static void Select()
+        public static void Select(object obj)
         {
             lock (locker)
             {
                 foreach (Client clientSelect in client)
                 {
                     Console.Write("Id: " + clientSelect.Id + ", Balance: " + clientSelect.Balance + ", Year: " + clientSelect.Year + "\n");
-                    Thread.Sleep(500);
+                    Thread.Sleep(100);
                 }
 
                 Console.WriteLine();
-                Console.WriteLine("Задание 3");
-                var amount = 0;
-                for (int i = 0; i < client.Count; i++)
+
+
+                int num = 0;
+                TimerCallback tm = new TimerCallback(TimerSelect);
+                Timer timer = new Timer(tm, num, 300, 0);
+
+                static void TimerSelect(object obj)
                 {
-                    Thread.Sleep(300);
-                    if (amount == 0)
+                    Console.WriteLine("Задание 3");
+                    var amount = (int)obj;
+                    for (int i = 0; i < client.Count; i++)
                     {
-                        amount++;
-                        continue;
-                    }
+                        Thread.Sleep(200);
+                        if (amount == 0)
+                        {
+                            amount++;
+                            continue;
+                        }
 
-                    else if (client[i - 1].Balance > client[i].Balance)
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.Write("Id: " + client[i].Id + ", Balance before: " + client[i - 1].Balance + ", Balance after: " + client[i].Balance + " difference: \"-\"" + (client[i - 1].Balance - client[i].Balance));
-                        Console.ResetColor();
-                        Console.WriteLine();
+                        else if (client[i - 1].Balance > client[i].Balance)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.Write("Id: " + client[i].Id + ", Balance before: " + client[i - 1].Balance + ", Balance after: " + client[i].Balance + " difference: \"-\"" + (client[i - 1].Balance - client[i].Balance));
+                            Console.ResetColor();
+                            Console.WriteLine();
+
+                        }
+                        else if (client[i - 1].Balance < client[i].Balance)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.Write("Id: " + client[i].Id + ", Balance before: " + client[i - 1].Balance + ", Balance after: " + client[i].Balance + " difference: \"+\"" + (client[i].Balance - client[i - 1].Balance));
+                            Console.ResetColor();
+                            Console.WriteLine();
+                        }
+                        else if (client[i - 1].Balance == client[i].Balance)
+                        {
+                            continue;
+                        }
 
                     }
-                    else if (client[i - 1].Balance < client[i].Balance)
-                    {
-                        Console.ForegroundColor = ConsoleColor.Green;
-                        Console.Write("Id: " + client[i].Id + ", Balance before: " + client[i - 1].Balance + ", Balance after: " + client[i].Balance + " difference: \"+\"" + (client[i].Balance - client[i - 1].Balance));
-                        Console.ResetColor();
-                        Console.WriteLine();
-                    }
-                    else if (client[i - 1].Balance == client[i].Balance)
-                    {
-                        continue;
-                    }
-
                 }
             }
         }
+
+        /*public static void TimerSelect(object obj)
+        {
+            Console.WriteLine("Задание 3");
+            var amount = (int)obj;
+            for (int i = 0; i < client.Count; i++)
+            {
+                Thread.Sleep(200);
+                if (amount == 0)
+                {
+                    amount++;
+                    continue;
+                }
+
+                else if (client[i - 1].Balance > client[i].Balance)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write("Id: " + client[i].Id + ", Balance before: " + client[i - 1].Balance + ", Balance after: " + client[i].Balance + " difference: \"-\"" + (client[i - 1].Balance - client[i].Balance));
+                    Console.ResetColor();
+                    Console.WriteLine();
+
+                }
+                else if (client[i - 1].Balance < client[i].Balance)
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.Write("Id: " + client[i].Id + ", Balance before: " + client[i - 1].Balance + ", Balance after: " + client[i].Balance + " difference: \"+\"" + (client[i].Balance - client[i - 1].Balance));
+                    Console.ResetColor();
+                    Console.WriteLine();
+                }
+                else if (client[i - 1].Balance == client[i].Balance)
+                {
+                    continue;
+                }
+
+            }
+            return;
+
+        }*/
     }
 
     public class Client
