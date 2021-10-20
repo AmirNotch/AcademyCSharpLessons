@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace AcademyCSharpLesson09._10._2021
 {
@@ -7,12 +8,12 @@ namespace AcademyCSharpLesson09._10._2021
     {
         static void Main()
         {
-            MatrixSymbols instance;
+            MatrixSymbols appearence;
 
-            for (int i = 0; i < 26; i++)
+            for (int i = 0; i < 40; i++)
             {
-                instance = new MatrixSymbols(i * 3, true);
-                new Thread(instance.Move).Start();
+                appearence = new MatrixSymbols(i * 3, true);
+                new Thread(appearence.Move).Start();
             }
         }
     }
@@ -23,24 +24,25 @@ namespace AcademyCSharpLesson09._10._2021
 
         Random random;
 
-        const string litters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        const string symbols = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&";
 
         public int Colunm { get; set; }
 
         public bool NeedSecond { get; set; }
 
-        public MatrixSymbols(int col, bool needSecond)
+        // Конструктор где прописывем колонку и ожиданиеВремени = true 
+        public MatrixSymbols(int column, bool needSecond)
         {
-            Colunm = col;
+            Colunm = column;
             random = new Random((int)DateTime.Now.Ticks);
             NeedSecond = needSecond;
         }
-
+        // Получаем рандомный символ 
         private char GetChar()
         {
-            return litters.ToCharArray()[random.Next(0, 35)];
+            return symbols.ToCharArray()[random.Next(0, symbols.Length)];
         }
-
+        // Метод который запускает потоки
         public void Move()
         {
             int lenght;
@@ -82,18 +84,27 @@ namespace AcademyCSharpLesson09._10._2021
                         {
                             Console.CursorLeft = Colunm;
                             Console.WriteLine(GetChar());
+                            /*//Thread.Sleep(2000);
+                            Console.CursorLeft = Colunm;
+                            Console.WriteLine(GetChar());*/
                         }
                         if (lenght >= 2)
                         {
                             Console.ForegroundColor = ConsoleColor.Green;
                             Console.CursorLeft = Colunm;
                             Console.WriteLine(GetChar());
+                            /*//Thread.Sleep(2000);
+                            Console.CursorLeft = Colunm;
+                            Console.WriteLine(GetChar());*/
                         }
                         if (lenght >= 1)
                         {
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.CursorLeft = Colunm;
                             Console.WriteLine(GetChar());
+                            /*//Thread.Sleep(2000);
+                            Console.CursorLeft = Colunm;
+                            Console.WriteLine(GetChar());*/
                         }
 
                         Thread.Sleep(50);
