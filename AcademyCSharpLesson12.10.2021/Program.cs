@@ -12,7 +12,7 @@ namespace AcademyCSharpLesson12._10._2021
 
             for (int i = 0; i < 25; i++)
             {
-                appearence = new MatrixSymbols(i * 3,true);
+                appearence = new MatrixSymbols(i * 3, true);
                 new Thread(appearence.Move).Start();
             }
         }
@@ -83,12 +83,12 @@ namespace AcademyCSharpLesson12._10._2021
                         {
                             Console.CursorLeft = Colunm;
                             Console.WriteLine(GetChar());
-                            /*//Thread.Sleep(2000);
+                            //Thread.Sleep(2000);
                             Console.CursorLeft = Colunm;
-                            Console.WriteLine(GetChar());*/
+                            Console.WriteLine(GetChar());
 
 
-                            var innerTask = Task.Factory.StartNew(() => 
+                            var innerTask = Task.Factory.StartNew(() =>
                             {
                                 Thread.Sleep(8000);
                                 Console.CursorLeft = Colunm;
@@ -100,9 +100,9 @@ namespace AcademyCSharpLesson12._10._2021
                             Console.ForegroundColor = ConsoleColor.Green;
                             Console.CursorLeft = Colunm;
                             Console.WriteLine(GetChar());
-                            /*//Thread.Sleep(2000);
+                            //Thread.Sleep(2000);
                             Console.CursorLeft = Colunm;
-                            Console.WriteLine(GetChar());*/
+                            Console.WriteLine(GetChar());
 
                             var innerTask = Task.Factory.StartNew(() =>
                             {
@@ -117,9 +117,9 @@ namespace AcademyCSharpLesson12._10._2021
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.CursorLeft = Colunm;
                             Console.WriteLine(GetChar());
-                            /*//Thread.Sleep(2000);
+                            //Thread.Sleep(2000);
                             Console.CursorLeft = Colunm;
-                            Console.WriteLine(GetChar());*/
+                            Console.WriteLine(GetChar());
 
                             var innerTask = Task.Factory.StartNew(() =>
                             {
