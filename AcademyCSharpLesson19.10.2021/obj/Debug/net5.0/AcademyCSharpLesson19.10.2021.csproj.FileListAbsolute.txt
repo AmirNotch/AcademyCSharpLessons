@@ -1,0 +1,16 @@
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.10.2021\bin\Debug\net5.0\AcademyCSharpLesson19.10.2021.exe
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.10.2021\bin\Debug\net5.0\AcademyCSharpLesson19.10.2021.deps.json
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.10.2021\bin\Debug\net5.0\AcademyCSharpLesson19.10.2021.runtimeconfig.json
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.10.2021\bin\Debug\net5.0\AcademyCSharpLesson19.10.2021.runtimeconfig.dev.json
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.10.2021\bin\Debug\net5.0\AcademyCSharpLesson19.10.2021.dll
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.10.2021\bin\Debug\net5.0\ref\AcademyCSharpLesson19.10.2021.dll
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.10.2021\bin\Debug\net5.0\AcademyCSharpLesson19.10.2021.pdb
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.10.2021\obj\Debug\net5.0\AcademyCSharpLesson19.10.2021.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.10.2021\obj\Debug\net5.0\AcademyCSharpLesson19.10.2021.AssemblyInfoInputs.cache
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.10.2021\obj\Debug\net5.0\AcademyCSharpLesson19.10.2021.AssemblyInfo.cs
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.10.2021\obj\Debug\net5.0\AcademyCSharpLesson19.10.2021.csproj.CoreCompileInputs.cache
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.10.2021\obj\Debug\net5.0\AcademyCSharpLesson19.10.2021.dll
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.10.2021\obj\Debug\net5.0\ref\AcademyCSharpLesson19.10.2021.dll
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.10.2021\obj\Debug\net5.0\AcademyCSharpLesson19.10.2021.pdb
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.10.2021\obj\Debug\net5.0\AcademyCSharpLesson19.10.2021.genruntimeconfig.cache
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson19.10.2021\obj\Debug\net5.0\AcademyCSharpLesson19.10.2021.csproj.AssemblyReference.cache
