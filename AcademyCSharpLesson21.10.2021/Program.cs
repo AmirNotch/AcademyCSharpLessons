@@ -19,7 +19,6 @@ namespace AcademyCSharpLesson21._10._2021
                 {
                     Console.WriteLine(item.LastName + " " + item.FirstName );
                 }
-
             }
             
             //INSERT
