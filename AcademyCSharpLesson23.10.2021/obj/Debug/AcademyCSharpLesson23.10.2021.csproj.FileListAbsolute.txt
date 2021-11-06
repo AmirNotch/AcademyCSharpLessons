@@ -1,0 +1,9 @@
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson23.10.2021\bin\Debug\AcademyCSharpLesson23.10.2021.exe.config
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson23.10.2021\bin\Debug\AcademyCSharpLesson23.10.2021.exe
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson23.10.2021\bin\Debug\AcademyCSharpLesson23.10.2021.pdb
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson23.10.2021\obj\Debug\AcademyCSharpLesson23.10.2021.csproj.AssemblyReference.cache
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson23.10.2021\obj\Debug\AcademyCSharpLesson23._10._2021.Properties.Resources.resources
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson23.10.2021\obj\Debug\AcademyCSharpLesson23.10.2021.csproj.GenerateResource.cache
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson23.10.2021\obj\Debug\AcademyCSharpLesson23.10.2021.csproj.CoreCompileInputs.cache
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson23.10.2021\obj\Debug\AcademyCSharpLesson23.10.2021.exe
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson23.10.2021\obj\Debug\AcademyCSharpLesson23.10.2021.pdb
