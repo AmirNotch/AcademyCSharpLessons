@@ -10,7 +10,7 @@ namespace AcademyCSharpLesson19._10._2021
         static async Task Main(string[] args)
         {
             Console.WriteLine("Problem #1");
-            int[] numbers = { 3, 4, 8, 5, 9, 7 };`
+            int[] numbers = { 3, 4, 8, 5, 9, 7 };
 
             IEnumerable<int> reverseNumbers = numbers.Reverse();
 
