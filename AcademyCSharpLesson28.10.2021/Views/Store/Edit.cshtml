@@ -1,0 +1,20 @@
+﻿@model Store
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+<form method="post" asp-action="Edit" asp-controller="Store">
+    <label>Product</label>
+    <input type="hidden" asp-for="Id"/>
+    <input class="form-control" asp-for="Product"/>
+    <span asp-validation-for="Product"></span>
+    <br />
+    <label>Cost</label>
+    <input class="form-control" asp-for="Cost"/>
+    <span asp-validation-for="Cost"></span><br />
+    <input class="btn btn-success" type="submit"/>
+    <a class="btn" asp-controller="Store" asp-action="Index">Back</a>
+</form>
+

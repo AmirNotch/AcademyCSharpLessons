@@ -1,0 +1,44 @@
+﻿@model List<Store>
+Hello from Almaty <b>Index</b> and Controller <b>Store</b>
+
+<br />
+<a asp-controller="Store" asp-action="Create">Create</a>
+
+@*@foreach (var item in Model)
+{
+    <h4>Id:@item.Id,  Продукт:@item.Product,  Цена:@item.Cost,  Доставка:@item.DeliveryDate</h4>
+}*@
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Продукт</th>
+            <th>Цена</th>
+            <th>Доставка</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var store in Model)
+        {
+            <tr>
+                <td>
+                    @store.Id
+                </td>
+                <td>
+                    @store.Product
+                </td>
+                <td>
+                    @store.Cost
+                </td>
+                <td>
+                    @store.DeliveryDate.ToString("dd/MM/yyyy HH:mm:ss");
+                </td>
+                <td><a class="btn btn-primary" href="~/Store/Edit?id=@store.Id">Изменить</a></td>
+                <td><a class="btn btn-danger" href="~/Store/Delete?id=@store.Id">Удалить</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+

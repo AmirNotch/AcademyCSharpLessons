@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-namespace MVCproj.Models
+namespace ProductStoreMVC.Models
 {
     public class ErrorViewModel
     {

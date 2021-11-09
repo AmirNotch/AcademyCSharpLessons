@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:41595",
+      "applicationUrl": "http://localhost:50700",
       "sslPort": 0
     }
   },
@@ -16,7 +16,7 @@
         "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
       }
     },
-    "MVCproj": {
+    "ProductStoreMVC": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

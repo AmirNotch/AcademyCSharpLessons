@@ -1,8 +1,11 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
-using MVCproj.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using ProductStoreMVC.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace MVCproj.Context
+namespace ProductStoreMVC.Context
 {
     public class MVCContext : DbContext
     {
@@ -10,6 +13,6 @@ namespace MVCproj.Context
         {
         }
 
-        public DbSet<Products> Phones { get; set; }
+        public DbSet<Store> Stores { get; set; }
     }
 }
