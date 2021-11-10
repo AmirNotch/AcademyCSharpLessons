@@ -1,0 +1,52 @@
+﻿@using ProductStoreMVC.Models.ViewModels
+@model List<StoreViewModel>
+Hello from Almaty <b>Index</b> and Controller <b>Store</b>
+
+<br />
+
+<div class="col-md-3">
+    <a class = "btn btn-success" asp-controller="Store" asp-action="Create">Create</a>
+    <select class = "form-control">
+        <option value="1">Овощи</option>
+        <option value="2">Фрукты</option>
+        <option value="3">Хлеб</option>
+        <option value="4">Молочные продукты</option>
+    </select>
+</div>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Продукт</th>
+            <th>Цена</th>
+            <th>Категория</th>
+            <th>Доставка</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var store in Model)
+        {
+            <tr>
+                <td>
+                    @store.Id
+                </td>
+                <td>
+                    @store.Product
+                </td>
+                <td>
+                    @store.Cost
+                </td>
+                <td>
+                    <a asp-action="Index" asp-controller="Store" asp-route-companyId="@store.StoreCompanyId">@store.StoreCompanyName</a>
+                </td>
+                <td>
+                    @store.DeliveryDate.ToString("dd/MM/yyyy HH:mm:ss");
+                </td>
+                <td><a class="btn btn-primary" href="~/Store/Edit?id=@store.Id">Изменить</a></td>
+                <td><a class="btn btn-danger" href="~/Store/Delete?id=@store.Id">Удалить</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+

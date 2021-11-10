@@ -1,0 +1,34 @@
+﻿@using ProductStoreMVC.Models.ViewModels
+@model StoreViewModel
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+<form method="post" asp-action="Create" asp-controller="Store">
+    <div class="row">
+        <div class="col-sm-1">
+            <label>Продукты</label>
+        </div>
+        <div class="col-sm-4">
+            <input class="form-control" asp-for="Product"/>
+            <span asp-validation-for="Product"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1">
+            <label>Цена</label>
+        </div>
+        <div class="col-sm-4">
+            <input class="form-control" asp-for="Cost"/>
+            <span asp-validation-for="Cost"></span><br />
+        </div>
+    </div>
+    <select class = "form-control" asp-for="StoreCompanyId" asp-items=@Model.Companies>
+    </select>
+    <span asp-validation-for="Cost"></span><br />
+    <input class="btn btn-success" type="submit"/>
+    <input class="btn btn-danger" type="reset"/>
+</form>
+
