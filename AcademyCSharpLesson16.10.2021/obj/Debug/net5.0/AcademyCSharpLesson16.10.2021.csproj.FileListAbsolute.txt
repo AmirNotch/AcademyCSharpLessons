@@ -62,3 +62,4 @@ C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson16.10.2021\o
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson16.10.2021\obj\Debug\net5.0\ref\AcademyCSharpLesson16.10.2021.dll
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson16.10.2021\obj\Debug\net5.0\AcademyCSharpLesson16.10.2021.pdb
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson16.10.2021\obj\Debug\net5.0\AcademyCSharpLesson16.10.2021.genruntimeconfig.cache
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson16.10.2021\obj\Debug\net5.0\AcademyCSharpLesson16.10.2021.csproj.CopyComplete

@@ -7,3 +7,4 @@ C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson23.10.2021\o
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson23.10.2021\obj\Debug\AcademyCSharpLesson23.10.2021.csproj.CoreCompileInputs.cache
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson23.10.2021\obj\Debug\AcademyCSharpLesson23.10.2021.exe
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson23.10.2021\obj\Debug\AcademyCSharpLesson23.10.2021.pdb
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson23.10.2021\obj\Debug\AcademyCSharpLesson23.10.2021.csproj.SuggestedBindingRedirects.cache

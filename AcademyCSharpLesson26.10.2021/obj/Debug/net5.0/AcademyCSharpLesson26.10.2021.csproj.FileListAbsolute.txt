@@ -366,7 +366,6 @@ C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson26.10.2021\o
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson26.10.2021\obj\Debug\net5.0\AcademyCSharpLesson26.10.2021.RazorAssemblyInfo.cache
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson26.10.2021\obj\Debug\net5.0\AcademyCSharpLesson26.10.2021.RazorAssemblyInfo.cs
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson26.10.2021\obj\Debug\net5.0\staticwebassets\AcademyCSharpLesson26.10.2021.StaticWebAssets.Manifest.cache
-C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson26.10.2021\obj\Debug\net5.0\staticwebassets\AcademyCSharpLesson26.10.2021.StaticWebAssets.xml
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson26.10.2021\obj\Debug\net5.0\scopedcss\bundle\AcademyCSharpLesson26.10.2021.styles.css
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson26.10.2021\obj\Debug\net5.0\AcademyCSharpLesson26.10.2021.TagHelpers.input.cache
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson26.10.2021\obj\Debug\net5.0\AcademyCSharpLesson26.10.2021.TagHelpers.output.cache
@@ -386,3 +385,4 @@ C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson26.10.2021\o
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson26.10.2021\obj\Debug\net5.0\ref\AcademyCSharpLesson26.10.2021.dll
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson26.10.2021\obj\Debug\net5.0\AcademyCSharpLesson26.10.2021.pdb
 C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson26.10.2021\obj\Debug\net5.0\AcademyCSharpLesson26.10.2021.genruntimeconfig.cache
+C:\Users\ibrag\source\repos\AcademyCSharpLessons\AcademyCSharpLesson26.10.2021\bin\Debug\net5.0\AcademyCSharpLesson26.10.2021.StaticWebAssets.xml
